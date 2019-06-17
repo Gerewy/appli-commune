@@ -10,6 +10,7 @@ import { HelloComponent } from './hello.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { IntroComponent } from './intro/intro.component';
+import { CommrComponent } from './commr/commr.component';
 
 @NgModule({
   imports:  [ 
@@ -27,7 +28,7 @@ import { IntroComponent } from './intro/intro.component';
     HelloComponent, 
     TopBarComponent, 
     AccueilComponent, 
-    IntroComponent 
+    IntroComponent, CommrComponent 
     ],
   bootstrap:    [ AppComponent,AccueilComponent ]
 })
