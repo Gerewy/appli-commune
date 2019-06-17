@@ -21,6 +21,7 @@ import { CommrComponent } from './commr/commr.component';
 
       {path: '', component: AccueilComponent},
       {path: 'intro', component: IntroComponent},
+      {path: 'radio', component: CommrComponent},
     ])  
   ],
   declarations: [ 
