@@ -42,7 +42,7 @@ router-outlet + *  {
 /* Text */
 
 h1 {
-  font-size: 32px;
+  font-size: 200%!important;
   color: black;
 }
 
@@ -72,7 +72,7 @@ p {
 /* Button Bootstrap Text */
 .btntext {
   color:#fdfdfd !important;
-  font-size: 210%
+  font-size: 200%!important
 }
 /* Button */
 .button, button {

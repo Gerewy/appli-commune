@@ -11,6 +11,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { IntroComponent } from './intro/intro.component';
 import { CommrComponent } from './commr/commr.component';
+import { ComdecoorComponent } from './comdecoor/comdecoor.component';
 
 @NgModule({
   imports:  [ 
@@ -22,6 +23,7 @@ import { CommrComponent } from './commr/commr.component';
       {path: '', component: AccueilComponent},
       {path: 'intro', component: IntroComponent},
       {path: 'radio', component: CommrComponent},
+      {path: 'comdecoor', component: ComdecoorComponent}
     ])  
   ],
   declarations: [ 
@@ -29,7 +31,7 @@ import { CommrComponent } from './commr/commr.component';
     HelloComponent, 
     TopBarComponent, 
     AccueilComponent, 
-    IntroComponent, CommrComponent 
+    IntroComponent, CommrComponent, ComdecoorComponent 
     ],
   bootstrap:    [ AppComponent,AccueilComponent ]
 })
