@@ -24,7 +24,8 @@ import { TblnomComponent } from './tblnom/tblnom.component';
       {path: '', component: AccueilComponent},
       {path: 'intro', component: IntroComponent},
       {path: 'radio', component: CommrComponent},
-      {path: 'comdecoor', component: ComdecoorComponent}
+      {path: 'comdecoor', component: ComdecoorComponent},
+      {path:'tableaunom', component: TblnomComponent}
     ])  
   ],
   declarations: [ 
