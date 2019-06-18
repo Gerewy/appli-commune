@@ -18,6 +18,7 @@ import { PtsattComponent } from './ptsatt/ptsatt.component';
 import { ZonesetperimetresComponent } from './zonesetperimetres/zonesetperimetres.component';
 import { MissionsComponent } from './missions/missions.component';
 import { PpdComponent } from './ppd/ppd.component';
+import { PpdLieuxComponent } from './accueil/ppd-lieux/ppd-lieux.component';
 
 @NgModule({
   imports:  [ 
@@ -35,7 +36,8 @@ import { PpdComponent } from './ppd/ppd.component';
       {path: 'points', component: PtsattComponent},
       {path: 'zonesetperimetres', component: ZonesetperimetresComponent},
       {path: 'missions', component: MissionsComponent},
-      {path: 'ppd', component: PpdComponent}
+      {path: 'ppd', component: PpdComponent},
+      {path: 'ppd-lieux', component: PpdLieuxComponent}
     ])  
   ],
   declarations: [ 
@@ -43,7 +45,7 @@ import { PpdComponent } from './ppd/ppd.component';
     HelloComponent, 
     TopBarComponent, 
     AccueilComponent, 
-    IntroComponent, CommrComponent, ComdecoorComponent, TblnomComponent, DclpuiComponent, PtsattComponent, ZonesetperimetresComponent, MissionsComponent, PpdComponent 
+    IntroComponent, CommrComponent, ComdecoorComponent, TblnomComponent, DclpuiComponent, PtsattComponent, ZonesetperimetresComponent, MissionsComponent, PpdComponent, PpdLieuxComponent 
     ],
   bootstrap:    [ AppComponent,AccueilComponent ]
 })
