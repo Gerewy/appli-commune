@@ -13,6 +13,7 @@ import { IntroComponent } from './intro/intro.component';
 import { CommrComponent } from './commr/commr.component';
 import { ComdecoorComponent } from './comdecoor/comdecoor.component';
 import { TblnomComponent } from './tblnom/tblnom.component';
+import { DclpuiComponent } from './dclpui/dclpui.component';
 
 @NgModule({
   imports:  [ 
@@ -25,7 +26,8 @@ import { TblnomComponent } from './tblnom/tblnom.component';
       {path: 'intro', component: IntroComponent},
       {path: 'radio', component: CommrComponent},
       {path: 'comdecoor', component: ComdecoorComponent},
-      {path:'tableaunom', component: TblnomComponent}
+      {path:'tableaunom', component: TblnomComponent},
+      {path: 'PUI', component: DclpuiComponent}
     ])  
   ],
   declarations: [ 
@@ -33,7 +35,7 @@ import { TblnomComponent } from './tblnom/tblnom.component';
     HelloComponent, 
     TopBarComponent, 
     AccueilComponent, 
-    IntroComponent, CommrComponent, ComdecoorComponent, TblnomComponent 
+    IntroComponent, CommrComponent, ComdecoorComponent, TblnomComponent, DclpuiComponent 
     ],
   bootstrap:    [ AppComponent,AccueilComponent ]
 })
