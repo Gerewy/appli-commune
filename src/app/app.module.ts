@@ -12,6 +12,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { IntroComponent } from './intro/intro.component';
 import { CommrComponent } from './commr/commr.component';
 import { ComdecoorComponent } from './comdecoor/comdecoor.component';
+import { TblnomComponent } from './tblnom/tblnom.component';
 
 @NgModule({
   imports:  [ 
@@ -31,7 +32,7 @@ import { ComdecoorComponent } from './comdecoor/comdecoor.component';
     HelloComponent, 
     TopBarComponent, 
     AccueilComponent, 
-    IntroComponent, CommrComponent, ComdecoorComponent 
+    IntroComponent, CommrComponent, ComdecoorComponent, TblnomComponent 
     ],
   bootstrap:    [ AppComponent,AccueilComponent ]
 })
