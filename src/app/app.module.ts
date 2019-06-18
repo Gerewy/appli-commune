@@ -15,6 +15,7 @@ import { ComdecoorComponent } from './comdecoor/comdecoor.component';
 import { TblnomComponent } from './tblnom/tblnom.component';
 import { DclpuiComponent } from './dclpui/dclpui.component';
 import { PtsattComponent } from './ptsatt/ptsatt.component';
+import { ZonesetperimetresComponent } from './zonesetperimetres/zonesetperimetres.component';
 
 @NgModule({
   imports:  [ 
@@ -29,7 +30,8 @@ import { PtsattComponent } from './ptsatt/ptsatt.component';
       {path: 'comdecoor', component: ComdecoorComponent},
       {path:'tableaunom', component: TblnomComponent},
       {path: 'PUI', component: DclpuiComponent},
-      {path: 'points', component: PtsattComponent}
+      {path: 'points', component: PtsattComponent},
+      {path: 'zonesetperimetres', component: ZonesetperimetresComponent}
     ])  
   ],
   declarations: [ 
@@ -37,7 +39,7 @@ import { PtsattComponent } from './ptsatt/ptsatt.component';
     HelloComponent, 
     TopBarComponent, 
     AccueilComponent, 
-    IntroComponent, CommrComponent, ComdecoorComponent, TblnomComponent, DclpuiComponent, PtsattComponent 
+    IntroComponent, CommrComponent, ComdecoorComponent, TblnomComponent, DclpuiComponent, PtsattComponent, ZonesetperimetresComponent 
     ],
   bootstrap:    [ AppComponent,AccueilComponent ]
 })
