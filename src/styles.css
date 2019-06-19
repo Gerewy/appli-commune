@@ -31,7 +31,7 @@ li a {
   display: block;
 }
 .navbar-inverse {
-  background-color: #1a78d6 ;
+  background-color: #1a78d6 !important;
 }
 body {
   margin: 0;
