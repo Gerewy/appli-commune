@@ -20,6 +20,8 @@ import { MissionsComponent } from './missions/missions.component';
 import { PpdComponent } from './ppd/ppd.component';
 import { PpdLieuxComponent } from './accueil/ppd-lieux/ppd-lieux.component';
 import { PpdGareComponent } from './ppd/ppd-gare/ppd-gare.component';
+import { PpdLagneauComponent } from './ppd/ppd-lagneau/ppd-lagneau.component';
+import { PpdCarrefourComponent } from './ppd/ppd-carrefour/ppd-carrefour.component';
 
 @NgModule({
   imports:  [ 
@@ -39,7 +41,9 @@ import { PpdGareComponent } from './ppd/ppd-gare/ppd-gare.component';
       {path: 'missions', component: MissionsComponent},
       {path: 'ppd', component: PpdComponent},
       {path: 'ppd-lieux', component: PpdLieuxComponent},
-      {path: 'courcellesmotte', component: PpdGareComponent}
+      {path: 'courcellesmotte', component: PpdGareComponent},
+      {path: 'carrefourmarket', component: PpdCarrefourComponent},
+      {path: 'placelagneau', compo}
     ])  
   ],
   declarations: [ 
@@ -56,7 +60,7 @@ import { PpdGareComponent } from './ppd/ppd-gare/ppd-gare.component';
     ZonesetperimetresComponent, 
     MissionsComponent, 
     PpdComponent, 
-    PpdLieuxComponent, PpdGareComponent 
+    PpdLieuxComponent, PpdGareComponent, PpdLagneauComponent, PpdCarrefourComponent 
     ],
   bootstrap:    [ AppComponent ]
 })
