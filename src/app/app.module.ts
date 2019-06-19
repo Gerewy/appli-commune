@@ -38,7 +38,8 @@ import { PpdGareComponent } from './ppd/ppd-gare/ppd-gare.component';
       {path: 'zonesetperimetres', component: ZonesetperimetresComponent},
       {path: 'missions', component: MissionsComponent},
       {path: 'ppd', component: PpdComponent},
-      {path: 'ppd-lieux', component: PpdLieuxComponent}
+      {path: 'ppd-lieux', component: PpdLieuxComponent},
+      {path: 'courcellesmotte', component: PpdGareComponent}
     ])  
   ],
   declarations: [ 
