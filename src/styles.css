@@ -26,6 +26,13 @@ app-top-bar h1 {
   -moz-osx-font-smoothing: grayscale;
 }
 
+li a {
+  font-size: 105% !important;
+  display: block;
+}
+.navbar-inverse {
+  background-color: #1a78d6 ;
+}
 body {
   margin: 0;
 }
