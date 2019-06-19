@@ -22,6 +22,7 @@ import { PpdGareComponent } from './ppd/ppd-gare/ppd-gare.component';
 import { PpdLagneauComponent } from './ppd/ppd-lagneau/ppd-lagneau.component';
 import { PpdCarrefourComponent } from './ppd/ppd-carrefour/ppd-carrefour.component';
 import { PpdZoningComponent } from './ppd/ppd-zoning/ppd-zoning.component';
+import { PpdFootComponent } from './ppd/ppd-foot/ppd-foot.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { PpdZoningComponent } from './ppd/ppd-zoning/ppd-zoning.component';
       {path: 'courcellesmotte', component: PpdGareComponent},
       {path: 'carrefourmarket', component: PpdCarrefourComponent},
       {path: 'placelagneau', component: PpdLagneauComponent},
-      {path: 'zoning', component: PpdZoningComponent}
+      {path: 'zoning', component: PpdZoningComponent},
+      {path: 'foot', component: PpdFootComponent}
     ])  
   ],
   declarations: [ 
@@ -63,7 +65,7 @@ import { PpdZoningComponent } from './ppd/ppd-zoning/ppd-zoning.component';
     PpdComponent, 
     PpdGareComponent, 
     PpdLagneauComponent, 
-    PpdCarrefourComponent, PpdZoningComponent 
+    PpdCarrefourComponent, PpdZoningComponent, PpdFootComponent 
     ],
   bootstrap:    [ AppComponent ]
 })
