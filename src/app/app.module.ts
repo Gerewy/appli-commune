@@ -59,7 +59,8 @@ import { LogistiqueComponent } from './contact-service/logistique/logistique.com
       {path: 'd3police', component: PoliceComponent},
       {path: 'd2medical', component: MedicComponent},
       {path: 'd4logistique', component: LogistiqueComponent},
-      {path: 'd5communication', component: CommunicationComponent}
+      {path: 'd5communication', component: CommunicationComponent},
+      {path: 'exterieur', component: OutsideComponent}
     ])  
   ],
   declarations: [ 
