@@ -24,6 +24,12 @@ import { PpdCarrefourComponent } from './ppd/ppd-carrefour/ppd-carrefour.compone
 import { PpdZoningComponent } from './ppd/ppd-zoning/ppd-zoning.component';
 import { PpdFootComponent } from './ppd/ppd-foot/ppd-foot.component';
 import { ContactServiceComponent } from './contact-service/contact-service.component';
+import { OutsideComponent } from './contact-service/outside/outside.component';
+import { PompierComponent } from './contact-service/pompier/pompier.component';
+import { MedicComponent } from './contact-service/medic/medic.component';
+import { PoliceComponent } from './contact-service/police/police.component';
+import { CommunicationComponent } from './contact-service/communication/communication.component';
+import { LogistiqueComponent } from './contact-service/logistique/logistique.component';
 
 
 @NgModule({
@@ -48,7 +54,12 @@ import { ContactServiceComponent } from './contact-service/contact-service.compo
       {path: 'placelagneau', component: PpdLagneauComponent},
       {path: 'zoning', component: PpdZoningComponent},
       {path: 'foot', component: PpdFootComponent},
-      {path: 'contactchoice', component: ContactServiceComponent}
+      {path: 'contact', component: ContactServiceComponent},
+      {path: 'd1pompier', component: PompierComponent},
+      {path: 'd3police', component: PoliceComponent},
+      {path: 'd2medical', component: MedicComponent},
+      {path: 'd4logistique', component: LogistiqueComponent},
+      {path: 'd5communication', component: CommunicationComponent}
     ])  
   ],
   declarations: [ 
@@ -67,7 +78,7 @@ import { ContactServiceComponent } from './contact-service/contact-service.compo
     PpdComponent, 
     PpdGareComponent, 
     PpdLagneauComponent, 
-    PpdCarrefourComponent, PpdZoningComponent, PpdFootComponent, ContactServiceComponent
+    PpdCarrefourComponent, PpdZoningComponent, PpdFootComponent, ContactServiceComponent, OutsideComponent, PompierComponent, MedicComponent, PoliceComponent, CommunicationComponent, LogistiqueComponent
     ],
   bootstrap:    [ AppComponent ]
 })
