@@ -23,6 +23,7 @@ import { PpdLagneauComponent } from './ppd/ppd-lagneau/ppd-lagneau.component';
 import { PpdCarrefourComponent } from './ppd/ppd-carrefour/ppd-carrefour.component';
 import { PpdZoningComponent } from './ppd/ppd-zoning/ppd-zoning.component';
 import { PpdFootComponent } from './ppd/ppd-foot/ppd-foot.component';
+import { ContactServiceComponent } from './contact-service/contact-service.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { PpdFootComponent } from './ppd/ppd-foot/ppd-foot.component';
       {path: 'carrefourmarket', component: PpdCarrefourComponent},
       {path: 'placelagneau', component: PpdLagneauComponent},
       {path: 'zoning', component: PpdZoningComponent},
-      {path: 'foot', component: PpdFootComponent}
+      {path: 'foot', component: PpdFootComponent},
+      {path: 'contactchoice', component: ContactServiceComponent}
     ])  
   ],
   declarations: [ 
@@ -65,7 +67,7 @@ import { PpdFootComponent } from './ppd/ppd-foot/ppd-foot.component';
     PpdComponent, 
     PpdGareComponent, 
     PpdLagneauComponent, 
-    PpdCarrefourComponent, PpdZoningComponent, PpdFootComponent 
+    PpdCarrefourComponent, PpdZoningComponent, PpdFootComponent, ContactServiceComponent
     ],
   bootstrap:    [ AppComponent ]
 })
