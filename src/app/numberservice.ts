@@ -20,12 +20,14 @@ export const numberservice = [
 {
     name: 'DE HAES Olivier',
         tel: '0497058600',
+        sms: '0497058600',
             service: 'D3 Police'
 },
 
 {
     name: 'DE LAVAREILLE Delphine',
         tel: '0479800928',
+          sms: '0479800928',
             service: 'D3 Police'
 },
 
@@ -44,6 +46,7 @@ export const numberservice = [
 {
     name: 'GIORDANO Vincenzo',
         tel: '0475294912',
+          sms: '0475294912',
             service: 'D3 Police'
 },
 
@@ -68,6 +71,7 @@ export const numberservice = [
 {
     name: "PLANU Fontaine l'Evêque",
     tel: '0473476262',
+      sms: '0473476262',
         service: 'Extérieur'
 },
 
@@ -80,12 +84,14 @@ export const numberservice = [
 {
     name: 'SCHINCKUS Laurent',
         tel: '0472950150',
+        sms: '0472950150',
             service: 'D3 Police'
 },
 
 {
-    name: 'SCHINCKUS Laurent',
+    name: 'SCHINCKUS Laurent (privé)',
         tel: '0485377342',
+        sms: '0485377342',
             service: 'D3 Police'
 },
 
@@ -122,6 +128,7 @@ export const numberservice = [
 {
     name: 'Travaux (garde) FONTAINE',
         tel: '0475688155',
+        sms: '0475688155',
             service: 'Extérieur'
 },
 
@@ -140,6 +147,7 @@ export const numberservice = [
 {
     name: 'Insp. hygiene fédéral taminiaux',
         tel: '0473473093',
+          sms: '0473473093',
             service: 'D2 Medical'
 },
 
@@ -152,6 +160,7 @@ export const numberservice = [
 {
     name: 'Psychosocial manager Delannoy Eleonore',
         tel: '0496306933',
+          sms: '0496306933',
             service: 'D2 Medical'
 },
 
@@ -170,12 +179,14 @@ export const numberservice = [
 {
     name: 'Annick Dubois',
         tel: '0497620843',
+          sms: '0497620843',
             service: 'D5 Communication'
 },
 
 {
     name: 'Anna Pallozza',
         tel: '0498745116',
+          sms: '0498745116',
             service: 'D5 Communication'
 },
- 
+]

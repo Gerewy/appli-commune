@@ -31,6 +31,8 @@ import { PoliceComponent } from './contact-service/police/police.component';
 import { CommunicationComponent } from './contact-service/communication/communication.component';
 import { LogistiqueComponent } from './contact-service/logistique/logistique.component';
 
+i
+
 
 @NgModule({
   imports:  [ 
