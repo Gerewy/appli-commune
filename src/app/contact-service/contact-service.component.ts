@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { numberservice } from '../numberservice'
+import { numberservice } from './numberservice'
 
 @Component({
   selector: 'app-contact-service',
