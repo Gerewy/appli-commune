@@ -8,6 +8,7 @@ import {numberservice} from '../numberservice'
   styleUrls: ['./medic.component.css']
 })
 export class MedicComponent implements OnInit {
+  numberservice = numberservice;
   
   constructor() { }
 

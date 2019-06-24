@@ -17,15 +17,15 @@
 <div *ngFor="let product of numberservice">
 
 <a *ngIf="product.service==='D3 Police'">
-  
-      <h4>{{ product.name }}<br></h4>
+  <br>
+      <strong>{{ product.name }}<br></strong>
       <a href="tel:{{ product.tel }}"class="btn btn-success btn-sm">
         <span class="material-icons">call</span></a>&nbsp;
     <a *ngIf="product.sms">
         <a href="sms:{{ product.sms }}" class="btn btn-danger btn-sm">
-          <span class="material-icons">message</span></a><br> 
+          <span class="material-icons">message</span></a> 
     </a>   
-      <BR>
+      
       
 </a>
 

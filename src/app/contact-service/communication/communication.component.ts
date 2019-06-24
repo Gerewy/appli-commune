@@ -8,6 +8,8 @@ import {numberservice} from '../numberservice'
 })
 export class CommunicationComponent implements OnInit {
 
+  numberservice = numberservice;
+  
   constructor() { }
 
   ngOnInit() {

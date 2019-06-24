@@ -9,6 +9,8 @@ import {numberservice} from '../numberservice'
 })
 export class LogistiqueComponent implements OnInit {
 
+  numberservice = numberservice;
+  
   constructor() { }
 
   ngOnInit() {
