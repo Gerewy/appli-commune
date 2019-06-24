@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { numberservice } from '../numberservice'
+import {numberservice} from 'app/numberservice'
+
 
 @Component({
   selector: 'app-outside',
