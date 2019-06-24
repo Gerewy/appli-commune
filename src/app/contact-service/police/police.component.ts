@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {numberservice} from '../numberservice';
 
 @Component({
   selector: 'app-police',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./police.component.css']
 })
 export class PoliceComponent implements OnInit {
+  numberservice = numberservice;
 
   constructor() { }
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import {numberservice} from 'app/numberservice'
+import {numberservice} from '../numberservice'
 
 
 @Component({
@@ -9,7 +9,7 @@ import {numberservice} from 'app/numberservice'
   styleUrls: ['./outside.component.css']
 })
 export class OutsideComponent implements OnInit {
-
+  numberservice = numberservice;
 
   constructor() { }
 

@@ -16,17 +16,18 @@
 
 <div *ngFor="let product of numberservice">
 
+<a *ngIf="product.service==='Extérieur'">
   
       <h4>{{ product.name }}<br></h4>
       <a href="tel:{{ product.tel }}"class="btn btn-success btn-sm">
         <span class="material-icons">call</span></a>&nbsp;
-<a *ngIf="product.sms">
+    <a *ngIf="product.sms">
         <a href="sms:{{ product.sms }}" class="btn btn-danger btn-sm">
           <span class="material-icons">message</span></a><br> 
-</a>   
+    </a>   
       <BR>
       <i>{{product.service}}</i>
-      
+</a>
 
   
 
